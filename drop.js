@@ -5,10 +5,7 @@
             this.draggable({
                 helper: 'clone',
                 start: function (e, ui) {
-                    debugger;
-                    var original = $(ui.helper);
-                    var edited = $(ui.helper);
-                    edited.css({ 
+                    $(ui.helper).css({ 
                         "width": "50px", 
                         "height": "50px",
                         "margin-left": e.clientX - $(e.target).offset().left - 25,
@@ -46,7 +43,6 @@
                 var worldPoint = new window.google.maps.Point(point.x / scale + bottomLeft.x, point.y / scale + topRight.y);
                 return map.getProjection().fromPointToLatLng(worldPoint);
             }
-
         }
     });
 })(window);
