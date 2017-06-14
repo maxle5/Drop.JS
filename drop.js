@@ -25,7 +25,7 @@
                 var wrapper = $(map.getDiv()).offset();
                 var x = ui.helper.offset().left - wrapper.left + $(ui.helper).width() / 2;
                 var y = ui.helper.offset().top - wrapper.top + $(ui.helper).height();
-                var url = $(ui.helper)[0].src;
+                var url = $(ui.helper)[0].data('img-url');
                 var icon = new window.google.maps.MarkerImage(url, null, null, null, new window.google.maps.Size(40, 40));
                 return new window.google.maps.Marker({
                     map: map,
