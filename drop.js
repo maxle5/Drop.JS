@@ -9,7 +9,8 @@
                         "width": "50px", 
                         "height": "50px",
                         "margin-left": e.clientX - $(e.target).offset().left - 25,
-                        "margin-top": e.clientY - $(e.target).offset().top - 25 
+                        "margin-top": e.clientY - $(e.target).offset().top - 25,
+                        "z-index": 1051
                     });
                 },
                 stop: function (e, ui) {
