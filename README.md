@@ -1,12 +1,9 @@
 # drop.js
 Drag/Drop custom images/markers on a google.maps.map
-## Example:
-https://jsfiddle.net/maxle5/3h0w3epn/
 
 ## Prerequisites:
 - jQuery (https://jquery.com/)
 - Google Maps Javascript API (https://developers.google.com/maps/documentation/javascript/)
-
 
 ## Usage:
 ```
@@ -15,3 +12,6 @@ $('.icon').drop(map, function(marker){
   // do something with the marker
 });
 ```
+
+## Example:
+https://jsfiddle.net/maxle5/3h0w3epn/
