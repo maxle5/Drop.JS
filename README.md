@@ -1,6 +1,6 @@
 # drop.js
 Drag/Drop custom images/markers on a google.maps.map
-## JSFiddle Example:
+## Example:
 https://jsfiddle.net/maxle5/3h0w3epn/
 
 ## Prerequisites:
