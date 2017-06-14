@@ -14,7 +14,7 @@
                     });
                 },
                 stop: function (e, ui) {
-                    var marker = DropMarker(e, ui);
+                    var marker = dropMarker(e, ui);
                     if (callback) {
                         callback(marker);
                     }
@@ -22,7 +22,7 @@
             })
 
             // handle dropped marker
-            function DropMarker(e, ui) {
+            function dropMarker(e, ui) {
                 var wrapper = $(map.getDiv()).offset();
                 var x = ui.helper.offset().left - wrapper.left + $(ui.helper).width() / 2;
                 var y = ui.helper.offset().top - wrapper.top + $(ui.helper).height();
