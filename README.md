@@ -1,4 +1,4 @@
-# drop.js
+# Drop.JS
 Drag/Drop custom images/markers on a google.maps.map
 
 ## Prerequisites:
@@ -8,7 +8,7 @@ Drag/Drop custom images/markers on a google.maps.map
 
 ## Usage:
 ```
-// drop.js setup
+// Drop.JS setup
 $('.icon').drop(map, function(marker){
   // do something with the marker
 });
