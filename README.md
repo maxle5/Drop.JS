@@ -14,5 +14,5 @@ $('.icon').drop(map, function(marker){
 });
 ```
 
-## Example:
+## Demo:
 https://jsfiddle.net/maxle5/3h0w3epn/
